@@ -1,0 +1,7 @@
+Mode=IDLE
+Phase=na
+Cycle=0
+JobNumber=      
+TaskID=
+VINNumber=
+Alarm= 

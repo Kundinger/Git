@@ -1,0 +1,12 @@
+CanisterVolume=2.1030
+WorkingCapacity=8.6989
+Recipe=12-WorkingCapacity
+TaskId=5cdf0d7d72ba7a001101c8c5
+RequestedBaseUnitAndShift=CLA1
+VINNumber=sdfg245r244rqrwrq
+ProjectCode=1Q1699
+UUTId=1Q1699-@02
+TaskCaption=Pre-Check!Activities
+ActualBaseUnitAndShift=
+JobNumber=
+Status=

@@ -1,0 +1,70 @@
+                                          In House Testing
+                                       Auburn Hills, Michigan
+                                   CANISTER PRECONDITIONING SYSTEM
+   
+                                           DETAIL REPORT
+   
+   Job Number:    000090                        
+   Station Description:       Station #5 
+   Stn SysID:     CLE                           Stn Abreviation:   5
+   Station:       5                             Vehicle No.:   
+   Shift:         1                             Engineer:      
+   Start Time:    13 Jan 2020  11:16:31         Start Op:      
+   End Time:      13 Jan 2020  11:16:44         End Op:        
+   Canister ID:   in vehicle
+   Can Volume:    0.00 Liters                   Can Work Cap:  0.00 Grams
+   
+   COMMENTS:
+   (None)
+   
+   
+   LEAKTEST SETUP
+   -------------------------------------------------------------------------------------------
+   Target Pressure:         2.000 kPa           Pressure Tolerance:      1.000 kPa
+   Deff Hold Duration:      4.000 sec           Press Hold Duration:     3.000 sec
+                                                Timeout:                 4.000 sec
+                                                Pressurize Timeout:      3.000 sec
+                                                Deff Tolerance:          0.002 inch
+   SG N2:                   0.967               Initial N2 Flow:         0.100 m3/s
+                                                Report Interval:         1.000 sec
+   
+   Barometer at Process Start: 1013 mBar
+   Barometer at Process End:   1013 mBar
+   
+   
+   LEAKTEST DETAIL DATA
+   -------------------------------------------------------------------------------------------
+      Time       TestTime        Baro       N2 Flow    N2 Press     N2 Temp  
+                                             (lpm)       (kPa)      (deg C)  
+    11:16:31       0.000         1013        0.100       13.25     25.14929  
+    11:16:32       1.016         1013        0.100       13.25     24.63633  
+    11:16:32       1.032         1013        0.100       13.25     24.63633  
+    11:16:33       2.016         1013        0.100       13.25     25.19263  
+    11:16:34       3.032         1012        0.100       13.25      25.0674  
+    11:16:35       4.016         1013        0.100       13.25     24.61374  
+    11:16:36       5.032         1013        0.100       13.25     25.35242  
+    11:16:37       6.016         1012        0.100       13.25     25.14222  
+    11:16:38       7.000         1012        0.100       13.25     24.88125  
+    11:16:39       8.032         1012        0.100       13.25     25.03147  
+    11:16:40       9.000         1012        0.100       13.25     25.38451  
+    11:16:41      10.032         1012        0.100       13.25     24.52817  
+    11:16:42      11.032         1013        0.100       13.25      25.2403  
+    11:16:43      12.016         1013        0.100       13.25     25.38525  
+    11:16:43      12.375         1012        0.100       13.25     24.95682  
+    11:16:44      13.016         1013        0.100       13.25     24.57633  
+   
+   
+   ALARM DATA
+   (none)
+   
+   OUT OF TOLERANCE DATA
+   (none)
+   
+   
+   EVENT LOG DATA
+   Date / Time                Comment
+   13 Jan 2020  11:16:44    Recipe completed.
+   
+   13 Jan 2020  11:16:44    JOB COMPLETED NORMALLY
+   
+   CHECKED BY: ________________________________________

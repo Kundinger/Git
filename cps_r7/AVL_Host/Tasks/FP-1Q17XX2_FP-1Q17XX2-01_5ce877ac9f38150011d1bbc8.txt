@@ -1,0 +1,12 @@
+CanisterVolume=4.4103
+WorkingCapacity=12.0393
+Recipe=12-WorkingCapacity
+TaskId=5ce877ac9f38150011d1bbc8
+RequestedBaseUnitAndShift=CLA1
+VINNumber=1A2HJKH22UJJ
+ProjectCode=FP-1Q17XX2
+UUTId=FP-1Q17XX2-01
+TaskCaption=Check-Out
+ActualBaseUnitAndShift=
+JobNumber=
+Status=

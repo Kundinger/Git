@@ -1,0 +1,64 @@
+                                          In House Testing
+                                       Auburn Hills, Michigan
+                                   CANISTER PRECONDITIONING SYSTEM
+   
+                                           SUMMARY REPORT
+   
+   Job Number:    000060                        
+   Station Description:       THIS IS THE FIFTH STATION 
+   Stn SysID:     CLA                           Stn Abreviation:   1
+   Station:       1                             Vehicle No.:   
+   Shift:         1                             Engineer:      
+   Start Time:    7 Jan 2020  14:53:56          Start Op:      
+   End Time:      7 Jan 2020  14:55:39          End Op:        
+   Canister ID:   Canister from Host
+   Can Volume:    9.186 Liters                  Can Work Cap:  18.668 Grams
+   
+   COMMENTS:
+   (None)
+   
+   
+   RECIPE DATA
+   Recipe Name: test
+    
+   ------------------------ Number of Cycles: 1 -----------------------
+   Cycle Type:              Purge - Load        
+   Start Method:            Start without delay 
+   Purge Method:            Purge by Time       Load Method:             Load by Time
+   Purge Flow Rate:         25.00 slpm          Target Load Rate:        8.0 gm/hr
+   Purge Time:              60 seconds          Load Time:               60 seconds
+                                                 
+                                                Butane Mix Percent:      75.0 % Butane
+                                                 
+                                                 
+                                                 
+   Purge Aux Can:           No                   
+   Pause after Purge Time:  0.0 minutes         Pause after Load Time:   0.0 minutes
+                                                 
+                                                 
+   Perform Leak Check:      No                  
+                                                Use Aux Scale:           Yes  Scale No. 1
+                                                Use Pri Scale:           No
+                                                Use LineVolume:          No 
+   
+   Barometer at Process Start: 1012 mBar
+   Barometer at Process End:   1012 mBar
+   
+   No Leak Check Performed
+   
+   ALARM DATA
+   Date / Time                Comment
+   7 Jan 2020  14:55:39    Purge Cycle Aborted
+   
+   OUT OF TOLERANCE DATA
+   (none)
+   
+   
+   EVENT LOG DATA
+   Date / Time                Comment
+   7 Jan 2020  14:53:56    Course #1 started.
+   7 Jan 2020  14:55:39    Recipe completed.
+   
+   7 Jan 2020  14:55:39    << JOB COMPLETED ABNORMALLY >>
+   
+   CHECKED BY: ________________________________________

@@ -1,0 +1,85 @@
+                                          In House Testing
+                                       Auburn Hills, Michigan
+                                   CANISTER PRECONDITIONING SYSTEM
+   
+                                           DETAIL REPORT
+   
+   Job Number:    000096                        
+   Station Description:       Station #1 
+   Stn SysID:     CLA                           Stn Abreviation:   1
+   Station:       1                             Vehicle No.:   
+   Shift:         1                             Engineer:      
+   Start Time:    13 Jan 2020  15:12:36         Start Op:      
+   End Time:      13 Jan 2020  15:12:50         End Op:        
+   Canister ID:   Canister from T.O.M.
+   Can Volume:    1.00 Liters                   Can Work Cap:  10.00 Grams
+   
+   COMMENTS:
+   (None)
+   
+   
+   RECIPE DATA
+   Recipe Name: test 1/13
+    
+   ------------------------ Number of Cycles: 1 -----------------------
+   Cycle Type:              Purge - Load        
+   Start Method:            Start without delay 
+   Purge Method:            No Purge            Load Method:             No Load
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
+   Pause after Purge Time:  0.0 minutes         Pause after Load Time:   0.0 minutes
+                                                 
+                                                 
+   Perform Leak Check:      Yes                 
+   Leak Check Aux:          No                  Use Aux Scale:           Yes  Scale No. 1
+   Leak Check Pri:          Yes                 Use Pri Scale:           No
+   Pause after Leak Time:   0.0 minutes         Use LineVolume:          No 
+   
+   Barometer at Process Start: 1012 mBar
+   Barometer at Process End:   1012 mBar
+   
+   
+   LEAK CHECK
+      Time    Pressure                      Comment                    
+               (psig)                                                  
+    15:12:36     0.00    Primary Leak Check - Begin Purging            
+    15:12:37     0.00    Primary                                       
+    15:12:38     0.00    Primary Leak Check - Begin Pressurize         
+    15:12:39     0.61    Primary                                       
+    15:12:39     1.15    Primary Leak Check - Begin Testing            
+    15:12:41     1.15    Primary                                       
+    15:12:42     1.15    Primary                                       
+    15:12:43     1.15    Primary                                       
+    15:12:44     1.15    Primary                                       
+    15:12:45     1.15    Primary                                       
+    15:12:46     1.15    Primary                                       
+    15:12:47     1.15    Primary                                       
+    15:12:48     1.15    Primary                                       
+    15:12:49     1.15    Primary                                       
+    15:12:50     1.15    Primary PASSED                                
+   
+   
+   
+   
+   ALARM DATA
+   (none)
+   
+   OUT OF TOLERANCE DATA
+   (none)
+   
+   
+   EVENT LOG DATA
+   Date / Time                Comment
+   13 Jan 2020  15:12:36    Course #1 started.
+   13 Jan 2020  15:12:50    Recipe completed.
+   13 Jan 2020  15:12:50    Primary Leakcheck PASSED
+   
+   13 Jan 2020  15:12:50    JOB COMPLETED NORMALLY
+   
+   CHECKED BY: ________________________________________

@@ -1,0 +1,810 @@
+[Root]
+Most Recent Package=CPS_r7 Setup Package
+
+
+[Package|CPS_r5 Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Objects\CPS_r5\Package
+
+[Package|CPS_r5 Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CPS_r5 Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CPS_r5 Setup Package 1|Files Found]
+
+[Package|CPS_r5 Setup Package 1|Files Released]
+
+[Package|CPS_r5 Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+C:\Program Files\Microsoft Office\Office\XL5EN32.OLB=
+C:\WINDOWS\system32\Optomwd.dll=
+C:\WINDOWS\system32\Optoerr.dll=
+
+[Package|CPS_r5 Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\Dblist32.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|CPS_r5 Setup Package 1|Files Added]
+D:\Objects\CPS_r5\manuals\showDoc.bat=
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=
+
+[Package|CPS_r5 Setup Package 1|Files Removed]
+
+[Package|CPS_r5 Setup Package 1|Files In Project]
+D:\Objects\CPS_r5\cps_r5.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Optoerr.dll=Yes
+C:\WINDOWS\system32\Optomwd.dll=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Microsoft Office\Office\XL5EN32.OLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\Dblist32.ocx=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\Threed32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\Mschrt20.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Objects\CPS_r5\manuals\showDoc.bat=Yes
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=Yes
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=Yes
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=Yes
+
+[Package|CPS_r5 Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|CPS_r5 Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|CPS_r5 Setup Package 1|Install Locations]
+D:\Objects\CPS_r5\cps_r5.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Optoerr.dll=$(WinSysPath)
+C:\WINDOWS\system32\Optomwd.dll=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\XL5EN32.OLB=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Dblist32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Threed32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Mschrt20.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Objects\CPS_r5\manuals\showDoc.bat=$(AppPath)\manuals
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=$(AppPath)\manuals
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=$(AppPath)\manuals
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=$(AppPath)\config
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=$(AppPath)\Config
+
+[Package|CPS_r5 Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Objects\CPS_r5\cps_r5.exe=No
+D:\Objects\CPS_r5\manuals\showDoc.bat=No
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=No
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=No
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=No
+
+[Package|CPS_r5 Setup Package 1|Distribution]
+Type=single
+Size=
+Title=CPS_r5 
+
+[Package|CPS_r5 Setup Package 1|IconGroups]
+Group0=CanisterPreconditioningSystem
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|CPS_r5 Setup Package 1|CanisterPreconditioningSystem]
+Icon1=cps_r5.exe
+Title1=CPS_r5 
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|CPS_r5 Setup Package 1|Package]
+PackageFolder=D:\Objects\CPS_r5\Package
+ProjectFolder=D:\Objects\CPS_r5
+ServerSideCab=
+File1=D:\Objects\CPS_r5\Package\setup.exe
+File2=D:\Objects\CPS_r5\Package\Setup.Lst
+File3=D:\Objects\CPS_r5\Package\cps_r5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|CPS_r5 Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Objects\cps_r5__20090129v\Package
+
+[Package|CPS_r5 Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CPS_r5 Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CPS_r5 Setup Package 2|Files Found]
+config.@@@=D:\Objects\cps_r5\config\config.@@@
+
+[Package|CPS_r5 Setup Package 2|Files Released]
+RelNotes.pdf=
+operatormanual.pdf=
+stations.@@@=
+scales.@@@=
+purgeair.@@@=
+optoinfo.@@@=
+funcdefd.@@@=
+funcdefa.@@@=
+sysdef.@@@=
+
+[Package|CPS_r5 Setup Package 2|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+C:\Program Files\Microsoft Office\Office\XL5EN32.OLB=
+C:\WINDOWS\system32\Optomwd.dll=
+C:\WINDOWS\system32\Optoerr.dll=
+C:\WINDOWS\system32\DATAFORM.OCX=
+C:\WINDOWS\system32\APPWIZ.OCX=
+C:\WINDOWS\system32\CHARTWIZ.OCX=
+C:\WINDOWS\system32\FLEXWIZ.OCX=
+C:\Program Files\Microsoft Office\OFFICE11\XL5EN32.OLB=
+
+[Package|CPS_r5 Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\Dblist32.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+
+[Package|CPS_r5 Setup Package 2|Files Added]
+d:\objects\cps_r5\manuals\showdoc.bat=
+config.@@@=
+d:\objects\cps_r5\calibrate\calibration.xls=
+
+[Package|CPS_r5 Setup Package 2|Files Removed]
+d:\objects\cps_r5\package\cps_r5\config\config.@@@=
+d:\objects\cps_r5\calibrate\calibration.xls=
+d:\objects\cps_r5\package\cps_r5\config\funcdefa.@@@=
+d:\objects\cps_r5\package\cps_r5\config\funcdefd.@@@=
+d:\objects\cps_r5\package\cps_r5\config\optoinfo.@@@=
+d:\objects\cps_r5\package\cps_r5\config\purgeair.@@@=
+d:\objects\cps_r5\manuals\operatormanual.pdf=
+d:\objects\cps_r5\package\cps_r5\config\scales.@@@=
+d:\objects\cps_r5\package\cps_r5\config\stations.@@@=
+d:\objects\cps_r5\package\cps_r5\config\sysdef.@@@=
+d:\objects\cps_r5\manuals\showdoc.bat=
+d:\objects\cps_r5__20090129k\cps_r5_debugversion_20090120k_4.exe=
+d:\objects\cps_r5\config\config.@@@=
+d:\objects\cps_r5\config\funcdefa.@@@=
+d:\objects\cps_r5\config\funcdefd.@@@=
+d:\objects\cps_r5\config\optoinfo.@@@=
+d:\objects\cps_r5\config\purgeair.@@@=
+d:\objects\cps_r5\config\scales.@@@=
+d:\objects\cps_r5\config\stations.@@@=
+d:\objects\cps_r5\config\sysdef.@@@=
+
+[Package|CPS_r5 Setup Package 2|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Optoerr.dll=Yes
+C:\WINDOWS\system32\Optomwd.dll=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\Dblist32.ocx=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\Threed32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\Mschrt20.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Objects\CPS_r5\manuals\showDoc.bat=No
+C:\WINDOWS\system32\FLEXWIZ.OCX=Yes
+C:\WINDOWS\system32\CHARTWIZ.OCX=Yes
+C:\WINDOWS\system32\APPWIZ.OCX=Yes
+C:\WINDOWS\system32\DATAFORM.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Objects\CPS_r5\calibrate\CALIBRATION.xls=No
+C:\Program Files\Microsoft Office\OFFICE11\XL5EN32.OLB=Yes
+D:\Objects\cps_r5\config\config.@@@=Yes
+D:\Objects\cps_r5__20090129v\cps_r5.exe=Yes
+
+[Package|CPS_r5 Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|CPS_r5 Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|CPS_r5 Setup Package 2|Install Locations]
+D:\Objects\CPS_r5\cps_r5.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Optoerr.dll=$(WinSysPath)
+C:\WINDOWS\system32\Optomwd.dll=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\XL5EN32.OLB=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Dblist32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Threed32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Mschrt20.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Objects\CPS_r5\manuals\showDoc.bat=$(AppPath)\manuals
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=$(AppPath)\manuals
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=$(AppPath)\manuals
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=$(AppPath)\config
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=$(AppPath)\Config
+C:\WINDOWS\system32\FLEXWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CHARTWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\system32\APPWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATAFORM.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Objects\cps_r5__20090129g__4\cps_r5.exe=$(AppPath)
+D:\Objects\cps_r5__20090129j\cps_r5_ReleaseVersion_20090120j_3.exe=$(AppPath)
+C:\Program Files\Microsoft Office\OFFICE11\XL5EN32.OLB=$(WinSysPath)
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_2.exe=$(AppPath)
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_4.exe=$(AppPath)
+D:\Objects\cps_r5__20090129m\cps_r5.exe=$(AppPath)
+D:\Objects\cps_r5__20090129t\cps_r5.exe=$(AppPath)
+D:\Objects\cps_r5__20090129v\cps_r5_DebugVersion_20090120v1.exe=$(AppPath)
+D:\Objects\cps_r5\config\config.@@@=$(AppPath)
+D:\Objects\cps_r5__20090129v\cps_r5.exe=$(AppPath)
+
+[Package|CPS_r5 Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Objects\CPS_r5\cps_r5.exe=Yes
+D:\Objects\CPS_r5\manuals\showDoc.bat=Yes
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=No
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=No
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Objects\cps_r5__20090129g__4\cps_r5.exe=No
+D:\Objects\cps_r5__20090129j\cps_r5_ReleaseVersion_20090120j_3.exe=No
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_2.exe=No
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_4.exe=No
+D:\Objects\cps_r5__20090129m\cps_r5.exe=No
+D:\Objects\cps_r5__20090129t\cps_r5.exe=No
+D:\Objects\cps_r5__20090129v\cps_r5_DebugVersion_20090120v1.exe=No
+D:\Objects\cps_r5\config\config.@@@=No
+D:\Objects\cps_r5__20090129v\cps_r5.exe=No
+
+[Package|CPS_r5 Setup Package 2|Distribution]
+Type=single
+Size=
+Title=CPS_r5
+
+[Package|CPS_r5 Setup Package 2|IconGroups]
+Group0=CanisterPreconditioningSystem
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|CPS_r5 Setup Package 2|CanisterPreconditioningSystem]
+Icon1=cps_r5.exe
+Title1=CPS_r5
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|CPS_r5 Setup Package 2|Package]
+PackageFolder=D:\Objects\cps_r5__20090129v\Package
+ProjectFolder=D:\Objects\cps_r5__20090129v
+ServerSideCab=
+File1=D:\Objects\cps_r5__20090129v\Package\setup.exe
+File2=D:\Objects\cps_r5__20090129v\Package\Setup.Lst
+File3=D:\Objects\cps_r5__20090129v\Package\cps_r5.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|CPS_r7 Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\cps_r7\Package
+
+[Package|CPS_r7 Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CPS_r7 Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CPS_r7 Setup Package|Files Found]
+CALIBRATION.xls=C:\cps_r7\calibrate\CALIBRATION.xls
+showDoc.bat=C:\cps_r7\manuals\showDoc.bat
+
+[Package|CPS_r7 Setup Package|Files Released]
+RelNotes.pdf=
+operatormanual.pdf=
+stations.@@@=
+scales.@@@=
+purgeair.@@@=
+optoinfo.@@@=
+funcdefd.@@@=
+funcdefa.@@@=
+sysdef.@@@=
+oc25.dll=
+USER.DLL=
+GDI.DLL=
+config.@@@=
+cps_r7.RES=
+
+[Package|CPS_r7 Setup Package|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=
+C:\Program Files\Microsoft Office\Office\XL5EN32.OLB=
+C:\WINDOWS\system32\Optomwd.dll=
+C:\WINDOWS\system32\Optoerr.dll=
+C:\WINDOWS\system32\DATAFORM.OCX=
+C:\WINDOWS\system32\APPWIZ.OCX=
+C:\WINDOWS\system32\CHARTWIZ.OCX=
+C:\WINDOWS\system32\FLEXWIZ.OCX=
+C:\Program Files\Microsoft Office\OFFICE11\XL5EN32.OLB=
+C:\WINDOWS\system\OC25.DLL=
+C:\Program Files\Common Files\Microsoft Shared\OFFICE12\MSO.DLL=
+C:\Program Files\Microsoft Office\Office12\XL5EN32.OLB=
+C:\WINDOWS\system32\MSBind.dll=
+C:\WINDOWS\system32\MShflxgd.ocx=
+C:\Shed_r7\MSCOMCTL.OCX=
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|CPS_r7 Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\Dblist32.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\MSFLXGRD.OCX=
+C:\WINDOWS\system32\MSDatGrd.ocx=
+C:\WINDOWS\system32\sysinfo.Ocx=
+C:\WINDOWS\system32\MSAdoDc.ocx=
+C:\WINDOWS\system32\MSChrt20.ocx=
+C:\WINDOWS\system32\MSComm32.Ocx=
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|CPS_r7 Setup Package|Files Added]
+showdoc.bat=
+calibration.xls=
+
+[Package|CPS_r7 Setup Package|Files Removed]
+d:\objects\cps_r5\package\cps_r5\config\config.@@@=
+d:\objects\cps_r5\calibrate\calibration.xls=
+d:\objects\cps_r5\package\cps_r5\config\funcdefa.@@@=
+d:\objects\cps_r5\package\cps_r5\config\funcdefd.@@@=
+d:\objects\cps_r5\package\cps_r5\config\optoinfo.@@@=
+d:\objects\cps_r5\package\cps_r5\config\purgeair.@@@=
+d:\objects\cps_r5\manuals\operatormanual.pdf=
+d:\objects\cps_r5\package\cps_r5\config\scales.@@@=
+d:\objects\cps_r5\package\cps_r5\config\stations.@@@=
+d:\objects\cps_r5\package\cps_r5\config\sysdef.@@@=
+d:\objects\cps_r5\manuals\showdoc.bat=
+d:\objects\cps_r5__20090129k\cps_r5_debugversion_20090120k_4.exe=
+d:\objects\cps_r5\config\funcdefa.@@@=
+d:\objects\cps_r5\config\funcdefd.@@@=
+d:\objects\cps_r5\config\optoinfo.@@@=
+d:\objects\cps_r5\config\purgeair.@@@=
+d:\objects\cps_r5\config\scales.@@@=
+d:\objects\cps_r5\config\stations.@@@=
+d:\objects\cps_r5\config\sysdef.@@@=
+d:\objects\cps_r5\config\config.@@@=
+
+[Package|CPS_r7 Setup Package|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Optoerr.dll=Yes
+C:\WINDOWS\system32\Optomwd.dll=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\Dblist32.ocx=Yes
+C:\WINDOWS\system32\DBGRID32.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\Threed32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\Mschrt20.ocx=Yes
+C:\WINDOWS\system32\Msflxgrd.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=Yes
+C:\cps_r7\cps_r7.exe=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Office\OFFICE11\XL5EN32.OLB=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\cps_r7\CPS.HLP=Yes
+C:\cps_r7\manuals\showDoc.bat=Yes
+C:\cps_r7\calibrate\CALIBRATION.xls=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+
+[Package|CPS_r7 Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|CPS_r7 Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|CPS_r7 Setup Package|Install Locations]
+D:\Objects\CPS_r5\cps_r5.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Optoerr.dll=$(WinSysPath)
+C:\WINDOWS\system32\Optomwd.dll=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\XL5EN32.OLB=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Dblist32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Threed32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\Mschrt20.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\FLEXWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CHARTWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\APPWIZ.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\DATAFORM.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Objects\CPS_r5\manuals\showDoc.bat=$(AppPath)\manuals
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=$(AppPath)\manuals
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=$(AppPath)\manuals
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=$(AppPath)\config
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=$(AppPath)\Config
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=$(AppPath)\Config
+C:\WINDOWS\system32\FLEXWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CHARTWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\system32\APPWIZ.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DATAFORM.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Objects\cps_r5__20090129g__4\cps_r5.exe=$(AppPath)
+D:\Objects\cps_r5__20090129j\cps_r5_ReleaseVersion_20090120j_3.exe=$(AppPath)
+C:\Program Files\Microsoft Office\OFFICE11\XL5EN32.OLB=$(WinSysPath)
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_2.exe=$(AppPath)
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_4.exe=$(AppPath)
+D:\Objects\cps_r5__20090129m\cps_r5.exe=$(AppPath)
+D:\Objects\cps_r5__20090129t\cps_r5.exe=$(AppPath)
+D:\Objects\cps_r5__20090129v\cps_r5_DebugVersion_20090120v1.exe=$(AppPath)
+D:\Objects\cps_r5\config\config.@@@=$(AppPath)
+D:\Objects\cps_r5__20090129v\cps_r5.exe=$(AppPath)
+D:\Objects\cps_r7\cps_r7.exe=$(AppPath)
+D:\Objects\cps_r7\CPS.HLP=$(AppPath)
+C:\Objects\cps_r7\cps_r7.exe=$(AppPath)
+C:\WINDOWS\system\OC25.DLL=$(WinSysPath)
+C:\Objects\cps_r7\CPS.HLP=$(AppPath)
+C:\Objects\cps_r7\manuals\showDoc.bat=$(AppPath)
+C:\Objects\cps_r7\calibrate\CALIBRATION.xls=$(AppPath)
+C:\Program Files\Microsoft Office\Office12\XL5EN32.OLB=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\OFFICE12\MSO.DLL=$(WinSysPath)
+C:\cps_r7\cps_r7.exe=$(AppPath)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Shed_r7\MSCOMCTL.OCX=$(WinSysPath)
+C:\cps_r7\CPS.HLP=$(AppPath)
+C:\cps_r7\manuals\showDoc.bat=$(AppPath)
+C:\cps_r7\calibrate\CALIBRATION.xls=$(AppPath)
+C:\Program Files\Common Files\DESIGNER\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\cps_r7\cps_r7.RES=$(AppPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+
+[Package|CPS_r7 Setup Package|Configure Shared Files]
+Applicable=Yes
+D:\Objects\CPS_r5\cps_r5.exe=Yes
+D:\Objects\CPS_r5\manuals\showDoc.bat=Yes
+D:\Objects\CPS_r5\manuals\OperatorManual.pdf=No
+D:\Objects\CPS_r5\manuals\RelNotes.pdf=No
+D:\Objects\CPS_r5\Package\cps_r5\config\sysdef.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\config.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefa.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\funcdefd.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\optoinfo.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\purgeair.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\scales.@@@=No
+D:\Objects\CPS_r5\Package\cps_r5\config\stations.@@@=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Objects\cps_r5__20090129g__4\cps_r5.exe=No
+D:\Objects\cps_r5__20090129j\cps_r5_ReleaseVersion_20090120j_3.exe=No
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_2.exe=No
+D:\Objects\cps_r5__20090129k\cps_r5_ReleaseVersion_20090120k_4.exe=No
+D:\Objects\cps_r5__20090129m\cps_r5.exe=No
+D:\Objects\cps_r5__20090129t\cps_r5.exe=No
+D:\Objects\cps_r5__20090129v\cps_r5_DebugVersion_20090120v1.exe=No
+D:\Objects\cps_r5\config\config.@@@=No
+D:\Objects\cps_r5__20090129v\cps_r5.exe=No
+D:\Objects\cps_r7\cps_r7.exe=No
+D:\Objects\cps_r7\CPS.HLP=No
+C:\Objects\cps_r7\cps_r7.exe=No
+C:\Objects\cps_r7\CPS.HLP=No
+C:\Objects\cps_r7\manuals\showDoc.bat=No
+C:\Objects\cps_r7\calibrate\CALIBRATION.xls=No
+C:\cps_r7\cps_r7.exe=No
+C:\cps_r7\CPS.HLP=No
+C:\cps_r7\manuals\showDoc.bat=No
+C:\cps_r7\calibrate\CALIBRATION.xls=No
+C:\cps_r7\cps_r7.RES=No
+
+[Package|CPS_r7 Setup Package|Distribution]
+Type=single
+Size=
+Title=CPS_r7
+
+[Package|CPS_r7 Setup Package|Package]
+PackageFolder=C:\cps_r7\Package
+ProjectFolder=C:\cps_r7
+ServerSideCab=
+File1=C:\cps_r7\Package\setup.exe
+File2=C:\cps_r7\Package\Setup.Lst
+File3=C:\cps_r7\Package\cps_r7.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|CPS_r7 Setup Package|IconGroups]
+Group0=CanisterPreconditioningSystem
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|CPS_r7 Setup Package|CanisterPreconditioningSystem]
+Icon1=cps_r7.exe
+Title1=CPS_r7
+StartIn1=$(AppPath)
+Key1=Icon1

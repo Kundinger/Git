@@ -1,0 +1,7 @@
+Line 28: Class Threed.SSCommand of control cmdClose was not a loaded control class.
+Line 35: The property name _Version in cmdClose is invalid.
+Line 36: The property name _ExtentX in cmdClose is invalid.
+Line 37: The property name _ExtentY in cmdClose is invalid.
+Line 38: The property name _StockProps in cmdClose is invalid.
+Line 39: The property name Caption in cmdClose is invalid.
+Line 50: The property name BevelWidth in cmdClose is invalid.

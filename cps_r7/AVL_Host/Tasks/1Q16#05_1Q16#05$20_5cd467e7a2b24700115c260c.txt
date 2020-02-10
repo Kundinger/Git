@@ -1,0 +1,12 @@
+CanisterVolume=8.3312
+WorkingCapacity=17.8807
+Recipe=12-WorkingCapacity
+TaskId=5cd467e7a2b24700115c260c
+RequestedBaseUnitAndShift=CLA1
+VINNumber=RCG1IWGYQ4GXWK248
+ProjectCode=1Q16#05
+UUTId=1Q16#05$20
+TaskCaption=Check-Out
+ActualBaseUnitAndShift=
+JobNumber=
+Status=

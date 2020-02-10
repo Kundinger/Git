@@ -1,0 +1,79 @@
+                                          In House Testing
+                                       Auburn Hills, Michigan
+                                   CANISTER PRECONDITIONING SYSTEM
+   
+                                           DETAIL REPORT
+   
+   Job Number:    000107                        
+   Station Description:       Station #5 
+   Stn SysID:     CLE                           Stn Abreviation:   5
+   Station:       5                             Vehicle No.:   
+   Shift:         1                             Engineer:      
+   Start Time:    16 Jan 2020  13:34:44         Start Op:      
+   End Time:      16 Jan 2020  13:35:07         End Op:        
+   Canister ID:   in vehicle
+   Can Volume:    0.00 Liters                   Can Work Cap:  0.00 Grams
+   
+   COMMENTS:
+   (None)
+   
+   
+   LEAKTEST SETUP
+   -------------------------------------------------------------------------------------------
+   Target Pressure:         2.000 kPa           Pressure Tolerance:      1.000 kPa
+   Deff Hold Duration:      4.000 sec           Press Hold Duration:     3.000 sec
+                                                Timeout:                 4.000 sec
+                                                Pressurize Timeout:      3.000 sec
+                                                Deff Tolerance:          0.002 inch
+   SG N2:                   0.967               Initial N2 Flow:         0.100 m3/s
+                                                Report Interval:         1.000 sec
+   
+   Barometer at Process Start: 1013 mBar
+   Barometer at Process End:   1012 mBar
+   
+   
+   LEAKTEST DETAIL DATA
+   -------------------------------------------------------------------------------------------
+      Time       TestTime        Baro       N2 Flow    N2 Press     N2 Temp  
+                                             (lpm)       (kPa)      (deg C)  
+    13:34:44       0.766         1013        0.100       13.25     25.39956  
+    13:34:45       1.391         1012        0.100       13.25     24.79894  
+    13:34:45       1.766         1012        0.100       13.25     25.07874  
+    13:34:46       2.766         1012        0.100       13.25     24.74187  
+    13:34:47       3.781         1012        0.100       13.25     24.77164  
+    13:34:48       4.781         1012        0.100       13.25     24.91994  
+    13:34:49       5.781         1013        0.100       13.25     25.25457  
+    13:34:50       6.781         1012        0.100       13.25     25.38451  
+    13:34:51       7.781         1013        0.100       13.25     25.48915  
+    13:34:52       8.781         1013        0.100       13.25      25.2403  
+    13:34:53       9.781         1013        0.100       13.25     25.38525  
+    13:34:54      10.781         1013        0.100       13.25     24.57633  
+    13:34:55      11.781         1013        0.100       13.25     25.08815  
+    13:34:56      12.781         1012        0.100       13.25     24.56331  
+    13:34:57      13.781         1012        0.100       13.25     24.88651  
+    13:34:58      14.781         1012        0.100       13.25     24.70383  
+    13:34:59      15.781         1012        0.100       13.25      25.4369  
+    13:35:00      16.781         1012        0.100       13.25     24.52411  
+    13:35:01      17.781         1013        0.100       13.25     25.36901  
+    13:35:02      18.781         1013        0.100       13.25      25.1703  
+    13:35:03      19.766         1012        0.100       13.25     24.72736  
+    13:35:04      20.781         1012        0.100       13.25     24.85073  
+    13:35:05      21.766         1012        0.100       13.25     24.75547  
+    13:35:06      22.781         1012        0.100       13.25     25.34713  
+    13:35:07      23.781         1013        0.100       13.25     25.45257  
+   
+   
+   ALARM DATA
+   (none)
+   
+   OUT OF TOLERANCE DATA
+   (none)
+   
+   
+   EVENT LOG DATA
+   Date / Time                Comment
+   16 Jan 2020  13:35:08    Recipe completed.
+   
+   16 Jan 2020  13:35:07    << JOB COMPLETED ABNORMALLY >>
+   
+   CHECKED BY: ________________________________________

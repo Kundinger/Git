@@ -1,0 +1,12 @@
+CanisterVolume=5.9400
+WorkingCapacity=18.1420
+Recipe=12-WorkingCapacity
+TaskId=5cf259d3b0c28f0021c06001
+RequestedBaseUnitAndShift=CLA1
+VINNumber=123SD4DFR6Y
+ProjectCode=FP-1Q17XX2
+UUTId=FP-1Q17XX2-07
+TaskCaption=!Restorative#Maintenance$
+ActualBaseUnitAndShift=
+JobNumber=
+Status=Invalid Requested Unit

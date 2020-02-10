@@ -1,0 +1,58 @@
+                                          In House Testing
+                                       Auburn Hills, Michigan
+                                   CANISTER PRECONDITIONING SYSTEM
+   
+                                           SUMMARY REPORT
+   
+   Job Number:    000043                        RemTaskID  :   
+   Station Description:       CLB 
+   Stn SysID:     CLB                           Stn Abreviation:   2
+   Station:       2                             Vehicle No.:   
+   Shift:         1                             Engineer:      
+   Start Time:    16 Dec 2019  11:19:52         Start Op:      
+   End Time:      16 Dec 2019  11:23:07         End Op:        
+   Canister ID:   in vehicle
+   Can Volume:    0.00 Liters                   Can Work Cap:  0.00 Grams
+   
+   COMMENTS:
+   (None)
+   
+   
+   LEAKTEST SETUP
+   -------------------------------------------------------------------------------------------
+   Target Pressure:         2.000 kPa           Pressure Tolerance:      1.000 kPa
+   Deff Hold Duration:      180.000 sec         Press Hold Duration:     10.000 sec
+                                                Timeout:                 1234.000 sec
+                                                Pressurize Timeout:      300.000 sec
+                                                Deff Tolerance:          0.002 inch
+   SG N2:                   0.967               Initial N2 Flow:         0.100 m3/s
+                                                Report Interval:         1.000 sec
+   
+   Barometer at Process Start: 1013 mBar
+   Barometer at Process End:   1012 mBar
+   
+   LEAKTEST SUMMARY
+   -------------------------------------------------------------------------------------------
+   Time        Eff. Dia.   Atm. Press  N2 Press    N2 Flow     N2 Temp     Comment
+               (inches)    (kPa)       (kPa)       (m2/s)      (deg K)
+   11:19:53    0.000       101.2513    114.5013    0.100       297.704     Start LeakTest
+   11:20:04    1.37071     101.259     114.509     0.100       298.068     Press at Target & Sta
+   ble
+   11:23:07    1.37092     101.2012    114.4512    0.100       297.792     Effective Diameter St
+   able
+   
+   ALARM DATA
+   (none)
+   
+   OUT OF TOLERANCE DATA
+   Date / Time                Comment
+   16 Dec 2019  11:20:26    Nitrogen Flow OOT (SP=0.000 PV=0.002)
+   
+   
+   EVENT LOG DATA
+   Date / Time                Comment
+   16 Dec 2019  11:23:08    Recipe completed.
+   
+   16 Dec 2019  11:23:07    JOB COMPLETED NORMALLY
+   
+   CHECKED BY: ________________________________________

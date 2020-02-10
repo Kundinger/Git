@@ -1,0 +1,337 @@
+FrmMassFlowCal.frm(3432): 'MsgBox wkObj.Worksheets(1).Range("A14").value
+FrmMassFlowCal.frm(3523): ' MsgBox chtMFCChart.Title.Font.Bold
+frmSubVi.frm(194): 'MsgBox "Lost Focus on SubView"  Removed by smitty
+Helpform.frm(106): MsgBox Err.Description, vbOKOnly + vbInformation, "Error!"
+MAINM.FRM(2126): 'MsgBox "kEY = " & keycode
+MAINM.FRM(2247): '    MsgBox "MSComm1 Receive Buffer Overflow"
+MAINM.FRM(2249): '    MsgBox "MsComm1 Parity Error"
+portform.frm(394): MsgBox "Could not open port.  Error # " & Str$(Brick_Error), 0, "Error"
+
+Cpmm8Card.frm(1867): Delay_Box "Station:" & station & "  is still running in Shift " & shift, MSGDELAY
+Cpmm8Card.frm(1899): Delay_Box "Configuration Saved", MSGDELAY
+Cpmm8Card.frm(1923): Delay_Box "Error, Invalid ComPort #" & Format(prt, "#0"), MSGDELAY
+Cpmm8Card.frm(1942): Delay_Box "Error ComPort " & Format(prt, "#0") & " not working", MSGDELAY
+Cpmm8Card.frm(1953): Delay_Box "Error ComPort " & Format(prt, "#0") & " not working", MSGDELAY
+Cpmm8Card.frm(1968): If CommErrors(prt) > MAXCOMMERRORS Then Delay_Box "Error ComPort " & Format(prt, "#0") & " not functioning >>" & buffers$ & "<<", MSGDELAY
+Cpmm8Card.frm(1983): If CommErrors(prt) > MAXCOMMERRORS Then Delay_Box "Error ComPort " & Format(prt, "#0") & "  Null >>" & buffers$ & "<<", MSGDELAY
+Cpmm8Card.frm(2030): Delay_Box "Error Scale " & Format(scl, "#0") & " - Invalid Data >>>" & InChars & "<<<", MSGDELAY
+Cpmm8Card.frm(2139): Delay_Box "Scale ComPort not in range", MSGDELAY
+Cpmm8Card.frm(2142): Delay_Box "Scale Number not in range", MSGDELAY
+Cpmm8Card.frm(2156): Delay_Box "Error ComPort Out of Range for Scale #" & Format(True_Scale_Number, "#0"), MSGDELAY
+Cpmm8Card.frm(2188): Delay_Box "Error, Invalid ComPort #" & Format(prt, "#0"), MSGDELAY
+Cpmm8Card.frm(2213): Delay_Box "Error ComPort " & Format(prt, "#0") & " Can't open port", MSGDELAY
+Cpmm8Card.frm(2225): If CommErrors(prt) > MAXCOMMERRORS Then Delay_Box "Error ComPort " & Format(prt, "#0") & " Not receiving data >>" & buffers$ & "<<", MSGDELAY
+Cpmm8Card.frm(2298): Delay_Box "Error Scale " & Format(scl, "#0") & " - Invalid Data >>>" & InChars & "<<<", MSGDELAY
+frmAbout.frm(382): Delay_Box "Starting Scale RS232 Communications", MSGDELAY
+frmAbout.frm(386): Delay_Box "Turn Off All Valves", MSGDELAY
+frmAbout.frm(390): Delay_Box "I/O Startup Complete", MSGDELAY
+frmAnalyzer.frm(172): Delay_Box "Number too small....See tool tips", MSGDELAY
+frmAnalyzer.frm(175): Delay_Box "Number too large....See tool tips", MSGDELAY
+frmAutoDrainFill.frm(634): Delay_Box "Can not STOP while Live Fuel Station is in Pause mode", MSGDELAY
+frmAutoDrainFill.frm(639): Delay_Box "Aborting Auto Drain/Fill", MSGDELAY
+frmAutoDrainFill.frm(654): Delay_Box "Can not STOP process. Security 'R' required!", MSGDELAY   ' vbCr, vbLf "Security level 'R' required.", MSGDELAY * 2
+FRMBREAKTHROUGH.FRM(100): Delay_Box "Number too small...See tool tips", MSGDELAY
+FRMBREAKTHROUGH.FRM(103): Delay_Box "Number too large...See tool tips", MSGDELAY
+FrmButaneVolume.frm(425): Delay_Box "Number too small...See tool tips", MSGDELAY
+FrmButaneVolume.frm(428): Delay_Box "Number too large...See tool tips", MSGDELAY
+FrmButaneVolume.frm(455): Delay_Box "Number MUST be Numeric", MSGDELAY
+FrmButaneVolume.frm(481): Delay_Box "Number MUST be Numeric", MSGDELAY
+FRMCALIB.FRM(752): Delay_Box "Calibration Correction Calculated!", MSGDELAY
+FRMCALIB.FRM(765): Delay_Box "Calibration File Sent to Printer!", MSGDELAY
+FRMCALIB.FRM(784): Delay_Box "Calibration Values Saved to Disk", MSGDELAY
+frmCanRecipe.frm(504): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmCanRecipe.frm(506): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmCanRecipe.frm(512): Delay_Box "Canister Recipe Saved", MSGDELAY
+frmCanRecipe.frm(517): Delay_Box "Incorrect Security Level to Save File", MSGDELAY
+frmCheckIt.frm(134): Delay_Box "Closing currently running Files!", MSGDELAY
+frmCOMIOForce.frm(2698): Delay_Box "A Station is Running", MSGDELAY
+frmCOMIOForce.frm(2711): Delay_Box "Channel is Not an Output", MSGDELAY
+frmCOMIOForce.frm(2728): Delay_Box "A Station is Running", MSGDELAY
+frmCOMIOForce.frm(2741): Delay_Box "Channel is Not an Output", MSGDELAY
+frmConfi.frm(1866): Delay_Box message, MSGDELAY
+frmConfi.frm(2014): Delay_Box "Heading:  60 Characters Max!", MSGDELAY
+frmConfi.frm(2025): Delay_Box "Heading:  60 Characters Max!", MSGDELAY
+frmConfi.frm(2091): Delay_Box message, MSGDELAY
+frmConfi.frm(2428): Delay_Box "Configuration File Saved", MSGDELAY
+frmConfigFID.frm(476): ''Delay_Box "update io", 2             'Smitty did it
+frmConfigFID.frm(555): Delay_Box "Station:" & station & "  is still running in Shift " & shift, MSGDELAY
+frmConfigFID.frm(594): Delay_Box "Number too small....See tool tips", MSGDELAY
+frmConfigFID.frm(597): Delay_Box "Number too large....See tool tips", MSGDELAY
+frmConfigFID.frm(600): Delay_Box "Field MUST be Numeric", MSGDELAY
+frmConfigFID.frm(603): Delay_Box "MUST be Type 'J' Thermocouple ONLY", MSGDELAY
+frmConfigFID.frm(609): Delay_Box "IO Configuration Saved", MSGDELAY
+frmConfigFID.frm(613): Delay_Box "Incorrect security for save!", MSGDELAY
+frmConfigFID.frm(616): Delay_Box "Must be in IDLE to save configuration", MSGDELAY
+frmConfigIOs.frm(642): Delay_Box "Number too small....See tool tips", MSGDELAY
+frmConfigIOs.frm(645): Delay_Box "Number too large....See tool tips", MSGDELAY
+frmConfigIOs.frm(651): Delay_Box "IO Configuration Saved", MSGDELAY
+frmConfigIOs.frm(655): Delay_Box "Incorrect security for save!", MSGDELAY
+frmCopy.frm(315): Delay_Box "Copying Selected Files!", MSGDELAY
+frmCopy.frm(344): Delay_Box "Files Copied!", MSGDELAY
+frmCopy.frm(349): Delay_Box "Directories can not be the same", MSGDELAY
+frmCopy1.frm(328): Delay_Box "Copying Selected Files!", MSGDELAY
+frmCopy1.frm(357): Delay_Box "Files Copied!", MSGDELAY
+frmCopy1.frm(362): Delay_Box "Directories can not be the same", MSGDELAY
+FrmCustomerContacts.frm(61): Delay_Box "Level ONE and TWO Contacts STILL Set", MSGDELAY
+frmCylinder.frm(143): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmCylinder.frm(146): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmDataL.frm(255): Delay_Box "Data Log File Cleared", MSGDELAY
+FRMIOCO2.FRM(1688): Delay_Box "Configuration File Saved!", MSGDELAY
+FRMIOCON.FRM(2261): ''Delay_Box "refresh io", 2               'Smitty did it
+FRMIOCON.FRM(2409): ''Delay_Box "update io", 2             'Smitty did it
+FRMIOCON.FRM(2591): Delay_Box "IO Configuration Saved!", MSGDELAY
+FRMIOCONFIG2.FRM(1734): Delay_Box "Configuration File Saved!", MSGDELAY
+frmIOFIDForce.frm(2017): Delay_Box "Channel is Not an Output", MSGDELAY
+frmIOFIDForce.frm(2030): Delay_Box "All Stations must be Idle or Paused for FID I/O Forcing", MSGDELAY
+frmIOFIDForce.frm(2045): Delay_Box "Channel is Not an Output", MSGDELAY
+frmJobli.frm(266): Delay_Box "Station:" & station & "  is still running in Shift " & shift & "MUST BE IDLE", MSGDELAY
+frmJobli.frm(272): Delay_Box "Clearing Job List.. Please Wait", MSGDELAY
+frmJobli.frm(280): Delay_Box "Job List File Cleared", MSGDELAY
+frmJobli.frm(288): Delay_Box "Unable to Clear File!", MSGDELAY
+frmLComIOForce.frm(2349): Delay_Box "Station:" & Station & "  is still running in Shift " & Shift, MSGDELAY
+frmLFEDef.frm(475): Delay_Box "Unusable filename", MSGDELAY
+frmLFEDef.frm(488): ' Delay_Box "no calibration file", MSGDELAY
+frmLiveFuel.frm(121): Delay_Box "Number too small....See tool tips", 2 * MSGDELAY
+frmLiveFuel.frm(124): Delay_Box "Number too large....See tool tips", 2 * MSGDELAY
+frmLoadTime.frm(144): Delay_Box "Number too small...See tool tips", 2 * MSGDELAY
+frmLoadTime.frm(147): Delay_Box "Number too large...See tool tips", 2 * MSGDELAY
+frmLStnIOForce.frm(2238): Delay_Box "Setting too low.  Use tooltips to find correct range", MSGDELAY
+frmLStnIOForce.frm(2240): Delay_Box "Setting too high.  Use tooltips to find correct range", MSGDELAY
+frmLStnIOForce.frm(2242): Delay_Box "Only numeric values are accepted.  Use tooltips to find correct range", MSGDELAY
+frmLStnIOForce.frm(2580): Delay_Box "Station:" & station & "  is still running in Shift " & shift, MSGDELAY
+frmmainm.frm(2464): Delay_Box "Password access A required", MSGDELAY
+frmmainm.frm(2470): Delay_Box "Password access B required", MSGDELAY
+frmmainm.frm(2476): Delay_Box "Password access C required", MSGDELAY
+frmmainm.frm(2482): Delay_Box "Password access D required", MSGDELAY
+FrmMassFlowCal.frm(3282): Delay_Box "Data entry boxes need numeric characters.", MSGDELAY
+FrmMassFlowCal.frm(3284): Delay_Box "Actual Flow Calculated", MSGDELAY
+FrmMassFlowCal.frm(3317): Delay_Box "All Actual Flow boxes need numeric characters.", MSGDELAY
+FrmMassFlowCal.frm(3374): Delay_Box "Calibrate Done", MSGDELAY
+FrmMassFlowCal.frm(3770): Delay_Box "Returning to Previously Saved Cal.", MSGDELAY
+FrmMassFlowCal.frm(3809): Delay_Box "File Released to the Printer", MSGDELAY
+FrmMassFlowCal.frm(3816): Delay_Box "Calibration Saved", MSGDELAY
+FrmMassFlowCal.frm(3843): Delay_Box "Actual Flow set to Nominal Flow", MSGDELAY
+FrmMassFlowCal.frm(4815): Delay_Box "Value too low.  See tooltips", MSGDELAY
+FrmMassFlowCal.frm(4819): Delay_Box "Value too high.  See tooltips", MSGDELAY
+FrmMassFlowCal.frm(4823): Delay_Box "Value is not an integer.  See tooltips", MSGDELAY
+FrmMassFlowCal.frm(4827): Delay_Box "Value is not a number.  See tooltips", MSGDELAY
+FrmMassFlowCal.frm(5118): ' Delay_Box "no calibration file", MSGDELAY
+frmOpenLFE.frm(285): Delay_Box "Enter a file name and press enter.", MSGDELAY
+frmOpenLFE.frm(322): Delay_Box "File Saved", MSGDELAY
+frmOpenLFE.frm(343): Delay_Box "Enter name of file to save to and press enter.", MSGDELAY
+frmPassw.frm(219): Delay_Box "Password Accepted!", MSGDELAY
+frmPassw.frm(234): Delay_Box "Access to Start System Denied for this User !", MSGDELAY
+frmPassw.frm(243): Delay_Box "Invalid Password!", MSGDELAY
+frmPassw.frm(292): '    Delay_Box "Enter User Name", MSGDELAY
+frmPrint.frm(273): 'Delay_Box "View Selected Files!", MSGDELAY
+frmPrint.frm(298): ' Delay_Box "Files Sent to Printer!", MSGDELAY
+frmPrint.frm(331): Delay_Box "Printing Selected Files!", MSGDELAY
+frmPrint.frm(355): Delay_Box "Files Sent to Printer!", MSGDELAY
+frmPrintSet.frm(120): Delay_Box "New Fonts Set!", MSGDELAY
+frmPropaneInj.frm(125): Delay_Box "Going back to wait state", MSGDELAY
+frmPurgeAir.frm(871): Delay_Box "PurgeAir Source Info Saved", MSGDELAY
+frmPurgeAir.frm(875): Delay_Box "Insufficient Access", MSGDELAY
+frmRecip.frm(2539): Delay_Box "Record updated", MSGDELAY
+frmRecip.frm(2543): Delay_Box "Access denied!", MSGDELAY
+frmRecip.frm(2548): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmRecip.frm(2551): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmRecip.frm(2559): Delay_Box "Only ONE Load Option may be Selected at a Time", MSGDELAY
+frmRecip.frm(2562): Delay_Box "Must Check ONE Load Box", MSGDELAY
+frmRecip.frm(2565): Delay_Box "Must Check Fid Analyzer for Break Through", MSGDELAY
+frmRecip.frm(2568): Delay_Box "Numeric entry required", MSGDELAY
+frmsbreakthrough.frm(147): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmsbreakthrough.frm(150): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmsCanRecipe.frm(400): Delay_Box "Can Not Change values while station is running", MSGDELAY
+frmsLoadTime.frm(134): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmsLoadTime.frm(137): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmstargetwt.frm(167): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmstargetwt.frm(170): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmstnAnalyzer.frm(123): Delay_Box "Number too small....See tool tips", MSGDELAY
+frmstnAnalyzer.frm(126): Delay_Box "Number too large....See tool tips", MSGDELAY
+frmStnDe.frm(4016): Delay_Box "Station MUST be running to view STATION ALARMS", MSGDELAY
+frmStnDe.frm(4028): Delay_Box "Can not CONTINUE while system is paused", MSGDELAY
+frmStnDe.frm(4035): Delay_Box cmdContinue.ToolTipText, MSGDELAY
+frmStnDe.frm(4037): Delay_Box "Pass Auth 'R' required", MSGDELAY
+frmStnDe.frm(4087): Delay_Box "Must have Valid CANISTER Recipe defined first", MSGDELAY
+frmStnDe.frm(4121): Delay_Box "Can not START while system is paused", MSGDELAY
+frmStnDe.frm(4125): Delay_Box "Start Button pushed when not in IDLE...Error", MSGDELAY
+frmStnDe.frm(4131): Delay_Box "Must have LEAK CHECK or PURGE CYCLE or LOAD values", MSGDELAY
+frmStnDe.frm(4150): Delay_Box "Can not START. FID in use by another station", MSGDELAY
+frmStnDe.frm(4159): Delay_Box "Start Test", MSGDELAY
+frmStnDe.frm(4161): Delay_Box "Pass Auth 'R' required", MSGDELAY
+frmStnDe.frm(4174): Delay_Box "Can not STOP process. Security 'R' required!", MSGDELAY   ' vbCr, vbLf "Security level 'R' required.", MSGDELAY
+frmStnDe.frm(4190): Delay_Box "Station MUST be running for Tolerances", MSGDELAY
+frmStnIOForce.frm(4485): Delay_Box "Station is Running", MSGDELAY
+frmStnIOForce.frm(4500): Delay_Box "Channel is Not an Output", MSGDELAY
+frmStnIOForce.frm(4546): Delay_Box "Station is Running", MSGDELAY
+frmStnIOForce.frm(4584): Delay_Box "Only numeric values between 0.0 and 100.0 are accepted", MSGDELAY
+frmstnLiveFuel.frm(144): Delay_Box "Number too small....See tool tips", MSGDELAY
+frmstnLiveFuel.frm(147): Delay_Box "Number too large....See tool tips", MSGDELAY
+frmStnRe.frm(2846): Delay_Box "Must have CANISTER Recipe defined first to use Working Capacity", MSGDELAY
+frmStnRe.frm(2871): Delay_Box "Adjusting LOAD FLOW RATE TO=" & txtsLoadRate & ". Check to insure this is what you expected.  ", MSGDELAY
+frmStnRe.frm(2935): Delay_Box "Don't Forget to Load CANISTER Recipe First", MSGDELAY
+frmStnRe.frm(3328): Delay_Box "Record Updated............................ Don't Forget to Load CANISTER Recipe", MSGDELAY
+frmStnRe.frm(3330): Delay_Box "Record Updated......Ending the Test with a Load Cycle may leave Fuel in the Load Line", MSGDELAY
+frmStnRe.frm(3332): Delay_Box "Record updated ", MSGDELAY
+frmStnRe.frm(3336): Delay_Box "Record Updated......Ending the Test with a Load Cycle may leave Fuel in the Load Line", MSGDELAY
+frmStnRe.frm(3338): Delay_Box "Record updated ", MSGDELAY
+frmStnRe.frm(3343): Delay_Box "Access denied!", MSGDELAY
+frmStnRe.frm(3348): Delay_Box "The selected options will NOT do a Purge.......Do you really want to do this?", MSGDELAY
+frmStnRe.frm(3358): Delay_Box "Number too Small...See tool tips", MSGDELAY
+frmStnRe.frm(3361): Delay_Box "Number too Large...See tool tips", MSGDELAY
+frmStnRe.frm(3364): Delay_Box "Aux Scale not responding ABORTING Save", MSGDELAY
+frmStnRe.frm(3367): Delay_Box "Primary Scale not responding, ABORTING Save", MSGDELAY
+frmStnRe.frm(3370): Delay_Box "Primary Scale in Use; ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3373): Delay_Box "Aux Scale & Primary Scale are the same; ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3376): Delay_Box "Aux Scale in Use; ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3379): Delay_Box "Live Fuel station only: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3382): Delay_Box "Live Fuel MUST have a Load method: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3385): Delay_Box "Maximun flow rate exceeded: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3388): Delay_Box "Must have AUX Canister Checked: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3391): Delay_Box "Break Through requires an AUXILLARY scale: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3394): Delay_Box "CAN NOT end on Purge when CAN VOLUME = 0: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3397): Delay_Box "CAN NOT do a working Capacity in Live Fuel: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3400): Delay_Box "Nothing to Do; No LeakCheck, No Purge, No Load: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3403): Delay_Box "Check Analyzer Required: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3406): Delay_Box "Analyzer AND Aux Scale not Permitted Together: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3409): Delay_Box "Line Volume size error: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3412): Delay_Box "Primary Scale required; ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3415): Delay_Box "Required Item not numeric; ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3418): Delay_Box "Load Butane Limit too short; ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3421): Delay_Box "Percent Load flow exceeds flow controller range. Adjust FLOW and/or Percent Ratio: ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3429): Delay_Box "Only ONE Load Option may be Selected at a Time", MSGDELAY
+frmStnRe.frm(3432): Delay_Box "Either select a Load Option Or select NoLoad; ABORTING SAVE", MSGDELAY
+frmStnRe.frm(3676): Delay_Box "Invalid Line Volume", MSGDELAY
+frmStnRe.frm(3683): Delay_Box "No Purge Flow", MSGDELAY
+frmStnRe.frm(3687): Delay_Box "No Canister Volume", MSGDELAY
+frmStnRe.frm(3693): Delay_Box "Save Canister recipe first.", MSGDELAY
+frmStop.frm(106): Delay_Box "Station returning to normal processing", MSGDELAY
+frmSubEd.frm(86): Delay_Box "Station:" & station & "  is still running in Shift " & shift, MSGDELAY
+frmsWorkCapMultp.frm(188): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmsWorkCapMultp.frm(191): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmSysDefFunc.frm(2424): Delay_Box "Station Function Configuration set to Defaults", MSGDELAY
+frmSysDefFunc.frm(2428): Delay_Box "Insufficient Access", MSGDELAY
+frmSysDefFunc.frm(2555): Delay_Box "Station Function Configuration Cleared", MSGDELAY
+frmSysDefFunc.frm(2559): Delay_Box "Insufficient Access", MSGDELAY
+frmSysDefFunc.frm(2700): Delay_Box "Station Function Configuration set to Defaults", MSGDELAY
+frmSysDefFunc.frm(2704): Delay_Box "Insufficient Access", MSGDELAY
+frmSysDefMain.frm(1655): Delay_Box "System Definition File Saved", MSGDELAY
+frmSysDefStn.frm(1390): Delay_Box "Common Info Cleared", MSGDELAY
+frmSysDefStn.frm(1419): Delay_Box "Station Info Cleared", MSGDELAY
+frmSysDefStn.frm(1425): Delay_Box "Insufficient Access", MSGDELAY
+frmSysDefStn.frm(1473): Delay_Box "Insufficient Access", MSGDELAY
+frmSysDefStn.frm(1548): Delay_Box "Station and Opto Info Files Saved", MSGDELAY
+frmSysDefStn.frm(1552): Delay_Box "Insufficient Access", MSGDELAY
+frmSysDefStn.frm(1562): Delay_Box "Insufficient Access", MSGDELAY
+frmSysDefStn.frm(1590): Delay_Box "Common Info set to Defaults", MSGDELAY
+frmSysDefStn.frm(1619): Delay_Box "Station Info set to Defaults", MSGDELAY
+frmSysDefStn.frm(1625): Delay_Box "Insufficient Access", MSGDELAY
+frmTargetWt.frm(168): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmTargetWt.frm(171): Delay_Box "Number too large...See tool tips", MSGDELAY
+frmWorkCapMultp.frm(187): Delay_Box "Number too small...See tool tips", MSGDELAY
+frmWorkCapMultp.frm(190): Delay_Box "Number too large...See tool tips", MSGDELAY
+mainform.frm(1437): Delay_Box "Configurations Saved.", MSGDELAY
+mainform.frm(1439): Delay_Box "Can Not save configuration while errors exist.", MSGDELAY
+mainform.frm(1554): Delay_Box ErrTxt$, MSGDELAY                 '   + " opto error", 2
+mainform.frm(1645): Delay_Box "Starting Opto22 I/O Communications", MSGDELAY
+mainform.frm(1650): Delay_Box "Initialize Opto22 Digital I/O", MSGDELAY
+mainform.frm(1655): Delay_Box "Initialize Opto22 Analog I/O", MSGDELAY
+mainform.frm(1661): Delay_Box "Setting Opto22 I/O Watchdog Timers", MSGDELAY
+mainform.frm(1762): Delay_Box ErrTxt$, MSGDELAY       '+ " opto 100", 2
+mainform.frm(1910): Delay_Box ErrTxt$, MSGDELAY       '+ " opto 100", 2
+
+
+
+
+ERRORS
+
+--- io errors ---
+global.bas(1126): Delay_Box ErrTxt$, MSGDELAY                                 '   + " opto error", 2
+global.bas(1196): Delay_Box ErrTxt$, MSGDELAY                                 ' + " opto error", 2
+global.bas(1543): ' Delay_Box "FID Percentage out of range", MSGDELAY
+--- system error ---
+Error.Bas(40): MsgBox sMsg, vbInformation, sTitle
+Error.Bas(47): MsgBox sMsg, vbInformation, sTitle
+Error.Bas(58): MsgBox sMsg, vbInformation, sTitle
+Error.Bas(64): ErrorHandler = MsgBox(sMsg, iType, sTitle)                  ' Let user select desire action
+Error.Bas(71): ErrorHandler = MsgBox(sMsg, iType, sTitle)                  ' Let user select desire action
+Error.Bas(77): ErrorHandler = MsgBox(sMsg, iType, sTitle)                  ' Let user select desire action
+Error.Bas(83): MsgBox sMsg, iType, sTitle
+Error.Bas(88): MsgBox sMsg, vbInformation, sTitle
+Error.Bas(93): MsgBox sMsg, vbInformation, sTitle
+Error.Bas(106): MsgBox sMsg, vbInformation, sTitle
+Error.Bas(161): MsgBox sMsg, vbInformation, sTitle
+Error.Bas(172): MsgBox sMsg, vbInformation, sTitle
+logs.bas(232): MsgBox "File not in joblist: " & Stn_Long_Name(Index, index2), vbInformation
+	logs.bas(276): Delay_Box "Station ALARM not opened yet.", MSGDELAY
+	logs.bas(372): Delay_Box "Station TOLERANCE not opened yet.", MSGDELAY
+	logs.bas(450): Delay_Box "Error " & Err & "Writing to Error Log: " & error$(Err), MSGDELAY
+	TestMgr.bas(2610): Delay_Box "Network NOT defined ABORTING copying file C" & Stn_Long_Name(Index, index2), MSGDELAY
+	TestMgr.bas(2635): Delay_Box "Network problem while copying file C" & Stn_Long_Name(Index, index2), MSGDELAY
+
+--- possible action required ---
+General.bas(1268): Delay_Box "Door Open...System will Pause All Tests in " & DoorOpenDelay - DoorInc & " minutes", MSGDELAY
+General.bas(1323): Delay_Box "Door Open...System will shut down in " & DoorOpenDelay - DoorInc & " minutes", MSGDELAY
+General.bas(1456): Delay_Box "UPS ACTIVE: System will shut down in " & UPSOpenDelay - UpsInc & " minutes", MSGDELAY
+General.bas(1468): Delay_Box "UPS ACTIVE: System will shut down in " & UPSOpenDelay & " minutes", MSGDELAY
+General.bas(1594): Delay_Box "Change Butane Cylinder Soon", MSGDELAY
+	--- testing error ---
+	Alarms.bas(946): Delay_Box "Station " & station & " Shift " & shift & " Paused for OOT", MSGDELAY
+	General.bas(1392): Delay_Box "Level ONE and TWO Contacts Set", MSGDELAY
+	General.bas(1542): Delay_Box "Low Gas Pressure Detected", MSGDELAY
+	TestMgr.bas(2298): Delay_Box "Load Pressure Exceeded....Aborting", MSGDELAY
+	TestMgr.bas(2307): Delay_Box "Butane Limit Exceeded....Aborting", MSGDELAY
+	TestMgr.bas(2316): Delay_Box "Butane Load Time Exceeded....Aborting", MSGDELAY
+	TestMgr.bas(2942): Delay_Box "Leak Check Failed - Didn't Reach Press", MSGDELAY
+	TestMgr.bas(2952): Delay_Box "Leak Check Failed - Excessive Leak Rate", MSGDELAY
+
+
+
+
+
+PROGRAM DEBUG
+Calib.Bas(387): 'MsgBox "Cal Valid = " & calDummy.CalValid & ", Gain = " & calDummy.CalGain _
+General.bas(1691): 'MsgBox "File name = " + sFile
+General.bas(1696): ' MsgBox "File name = " + sFile
+General.bas(1852): 'MsgBox "File name = " + sFile
+General.bas(1857): ' MsgBox "File name = " + sFile
+
+
+
+
+DETAILS OF MISTAKEN ENTRY BY USER
+--- hotkey ---
+HotKey.bas(46): Delay_Box "Use CTRL and F1 for Help Documentation", MSGDELAY
+--- config, etc. ---
+Utils.Bas(274): Delay_Box sMessage & " Range Error!" & vbCrLf & "Allowable Range = " _
+Utils.Bas(288): Delay_Box sMessage & " Range Error!" & vbCrLf & "Allowable Range = " _
+--- no access ---
+Password.bas(35): Delay_Box "Insufficient Access!", MSGDELAY
+
+DETAILS OF UNSUCCESSFUL ACTION BY USER
+TestMgr.bas(205): Delay_Box "Attempted Start of Station with Open DB File >>" & Stn_DBFile(Index, index2) & "<<", MSGDELAY
+TestMgr.bas(2684): Delay_Box "File " & strExists & " Data-Base Exists for Station " & Index & " Shift " & index2, MSGDELAY
+
+	DETAILS OF SUCCESSFUL ACTION BY USER
+	Alarms.bas(885): Delay_Box "Operator Continued Station after OOT", MSGDELAY
+	Password.bas(132): Delay_Box "User Logged Off!", MSGDELAY
+	TestMgr.bas(2079): Delay_Box "Pushed Stop (Abort) Button", MSGDELAY
+
+
+	STARTUP, etc.
+	--- info ---
+	Config.bas(1384): Delay_Box "Configuration File Loaded", MSGDELAY
+	General.bas(1337): Delay_Box "Closing currently running Files!", MSGDELAY
+	General.bas(1506): Delay_Box "Closing currently running Files!", MSGDELAY
+	General.bas(1671): Delay_Box "Performing File Maintenance Reports", MSGDELAY
+	General.bas(1835): Delay_Box "Performing File Maintenance Data-Base", MSGDELAY
+	General.bas(1986): Delay_Box Msg, MSGDELAY
+	General.bas(2000): Delay_Box "Load System Definition Files", MSGDELAY
+	General.bas(2049): Delay_Box "Cfg & SysDef Files Upgraded to Lvl = 1", MSGDELAY
+	sysdef.Bas(108): Delay_Box "Loading Calibration Files", MSGDELAY
+	--- corrected error ---
+	NewCalibrate.bas(101): Delay_Box "Station " & Format(station, "0") & " " & filename & "Calibration File has the Wrong Range", MSGDELAY
+	NewCalibrate.bas(119): Delay_Box "Station " & Format(station, "0") & " " & filename & "Calibration File Not Found; will use Linear Cal", MSGDELAY
+	Config.bas(45): Delay_Box "Canister Recipe File Not Found; setting values to zero", MSGDELAY
+	Config.bas(538): Delay_Box "Analog Function Definition File Not Found; setting values to zero", MSGDELAY
+

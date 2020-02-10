@@ -1,0 +1,55 @@
+                                          In House Testing
+                                       Auburn Hills, Michigan
+                                   CANISTER PRECONDITIONING SYSTEM
+   
+                                           SUMMARY REPORT
+   
+   Job Number:    000104                        
+   Station Description:       Station #5 
+   Stn SysID:     CLE                           Stn Abreviation:   5
+   Station:       5                             Vehicle No.:   
+   Shift:         1                             Engineer:      
+   Start Time:    16 Jan 2020  12:42:06         Start Op:      
+   End Time:      16 Jan 2020  12:43:40         End Op:        
+   Canister ID:   in vehicle
+   Can Volume:    0.00 Liters                   Can Work Cap:  0.00 Grams
+   
+   COMMENTS:
+   (None)
+   
+   
+   LEAKTEST SETUP
+   -------------------------------------------------------------------------------------------
+   Target Pressure:         2.000 kPa           Pressure Tolerance:      1.000 kPa
+   Deff Hold Duration:      4.000 sec           Press Hold Duration:     3.000 sec
+                                                Timeout:                 4.000 sec
+                                                Pressurize Timeout:      3.000 sec
+                                                Deff Tolerance:          0.002 inch
+   SG N2:                   0.967               Initial N2 Flow:         0.100 m3/s
+                                                Report Interval:         1.000 sec
+   
+   Barometer at Process Start: 1013 mBar
+   Barometer at Process End:   1012 mBar
+   
+   LEAKTEST SUMMARY
+   -------------------------------------------------------------------------------------------
+   Time        Eff. Dia.   Atm. Press  N2 Press    N2 Flow     N2 Temp     Comment
+               (inches)    (kPa)       (kPa)       (m2/s)      (deg K)
+   12:42:07    0.000       101.2747    114.5247    0.000       298.553     Start LeakTest
+   12:43:39    0.00526     101.223     114.473     0.000       298.356     Stopped by Operator
+   
+   ALARM DATA
+   (none)
+   
+   OUT OF TOLERANCE DATA
+   Date / Time                Comment
+   16 Jan 2020  12:42:42    Nitrogen Flow OOT (SP=0.000 PV=0.003)
+   
+   
+   EVENT LOG DATA
+   Date / Time                Comment
+   16 Jan 2020  12:43:41    Recipe completed.
+   
+   16 Jan 2020  12:43:40    << JOB COMPLETED ABNORMALLY >>
+   
+   CHECKED BY: ________________________________________
